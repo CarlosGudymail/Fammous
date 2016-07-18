@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeLayoutCustomToast"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#cb171717"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="7dp">
+
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_below="@+id/textView1"
+            android:layout_margin="5dip"
+            android:id="@+id/imageViewCustomToast"
+            android:layout_gravity="center">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textViewWelcomeToast"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/messageToastWelcome"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp">
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>
