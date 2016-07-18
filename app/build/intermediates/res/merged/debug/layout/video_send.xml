@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/veryLightGray"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <FrameLayout
+            android:id="@+id/frameLayoutSendVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" >
+
+            <VideoView
+                android:id="@+id/videoViewSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageViewThumbnailSendVideo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/imageViewPlaySendVideo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_play" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <EditText
+                android:id="@+id/editTextTitleSendVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editTextTitleVideo"
+                android:imeOptions="actionNext"
+                android:maxLength="140"
+                android:singleLine="true" >
+                <requestFocus />
+			</EditText>
+
+            <EditText
+                android:id="@+id/editTextCommentSendVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="@string/editTextCommentVideo"
+                android:inputType="textMultiLine"
+                android:maxLength="2000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/buttonDeleteVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="Borrar" />
+
+                <Button
+                    android:id="@+id/buttonSendVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="Enviar"
+                    android:background="@drawable/selector_button_red"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

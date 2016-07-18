@@ -1,0 +1,61 @@
+-injars 'C:\Users\Posti\StudioProjects\Fammous\app\build\intermediates\transforms\jarMerging\release\jars\1\1f\combined.jar'
+-outjars 'C:\Users\Posti\StudioProjects\Fammous\app\build\intermediates\multi-dex\release\componentClasses.jar'
+
+-libraryjars 'C:\Users\Posti\AppData\Local\Android\Sdk\build-tools\23.0.3\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration 'C:\Users\Posti\StudioProjects\Fammous\app\build\intermediates\multi-dex\release\components.flags'
+
+
+-keep class android.support.multidex.MultiDexApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class famm.fammous.start.SplashScreen {
+    <init>();
+}
+
+-keep class famm.fammous.start.StartScreen {
+    <init>();
+}
+
+-keep class famm.fammous.MainActivity {
+    <init>();
+}
+
+-keep class famm.fammous.video.CameraRecorder {
+    <init>();
+}
+
+-keep class famm.fammous.video.SendVideo {
+    <init>();
+}
+
+-keep class famm.fammous.video.ServiceSend {
+    <init>();
+}
+
+-keep class famm.fammous.start.Signup {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

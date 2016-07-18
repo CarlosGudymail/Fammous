@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/background_material_light">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/background_material_light">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextEmailSignup"
+                android:inputType="textEmailAddress"
+                android:hint="@string/editTextEmailSignup" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextPasswordSignup"
+                android:inputType="textPassword"
+                android:hint="@string/editTextPasswordSignup" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextNameSignup"
+                android:inputType="text"
+                android:hint="@string/editTextNameSignup"
+                android:autoText="false" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextSurnameSignup"
+                android:hint="@string/editTextSurnameSignup" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextBirthdaySignup"
+                android:inputType="date"
+                android:hint="@string/editTextBirthdaySignup" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextCitySignup"
+                android:inputType="text"
+                android:hint="@string/editTextCitySignup" />
+
+            <Spinner
+                android:id="@+id/spinnerCountriesSignup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:id="@+id/spinnerGenderSignup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextAddressSignup"
+                android:inputType="text"
+                android:hint="@string/editTextAddressSignup" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextProvinceSignup"
+                android:inputType="text"
+                android:hint="@string/editTextProvinceSignup" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextPhoneSignup"
+                android:inputType="phone"
+                android:hint="@string/editTextPhoneSignup" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buttonImageSignup"
+                    android:id="@+id/buttonImageSignup" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewUserSignup" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonSendSignup"
+                android:id="@+id/buttonSendSignup" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

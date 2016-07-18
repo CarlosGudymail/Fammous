@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ENGLISH -->
+<resources>
+    <string name="app_name">Fammous</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start_screen">StartScreen</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="admobId">ca-app-pub-5575001941246753/5421811023</string>
+    <string name="user_agent_suffix">Fammous_Android/1.0</string>
+    <string name="titleDialogConnection">Alert</string>
+    <string name="buttonRetryDialogConnection">Retry</string>
+    <string name="messageDialogConnection">It is required Internet connection for proper opration. Please, retry later.</string>
+    <string name="messageToastWelcome">Welcome, %1$s!</string>
+
+    <string name="messageDialogBack">If you continue the video will not be saved</string>
+    <string name="buttonAcceptDialogBack">Ok</string>
+    <string name="buttonCancelDialogBack">Cancel</string>
+
+    <!-- SplashScreen -->
+    <string name="toastSplash">You must be connected to the Internet to use this App</string>
+
+    <!-- StartScreen -->
+    <string name="editTextEmailStart">Email</string>
+    <string name="editTextPasswordStart">Password</string>
+    <string name="buttonLoginStart">Login</string>
+    <string name="toastStart">We could not connect to our login server. Please try again</string>
+    <string name="toastStartSignup">The email address or password that you have entered is not valid</string>
+    <string name="toastStartFill">Please fill out all fields in the form</string>
+
+    <!-- Signup -->
+    <string name="editTextEmailSignup">Email</string>
+    <string name="editTextPasswordSignup">Password</string>
+    <string name="editTextNameSignup">Name</string>
+    <string name="editTextSurnameSignup">Surname</string>
+    <string name="editTextBirthdaySignup">Birthday (dd-mm-yyyy)</string>
+    <string name="editTextCitySignup">City</string>
+    <string name="editTextAddressSignup">Address</string>
+    <string name="editTextProvinceSignup">Province</string>
+    <string name="editTextPhoneSignup">Phone</string>
+
+    <string-array name="spinnerGenderSignup">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="buttonImageSignup">Image</string>
+    <string name="buttonSendSignup">Send</string>
+    <string name="title_activity_signup">Signup</string>
+
+    <!-- CameraRecorder -->
+    <string name="buttonRecordCamera">Record</string>
+    <string name="buttonStopCamera">Stop</string>
+    <string name="buttonChangeCamera">Switch camera</string>
+
+    <!-- SendVideo -->
+    <string name="buttonSendVideo">Send</string>
+    <string name="buttonDeleteVideo">Delete</string>
+    <string name="editTextTitleVideo">Title</string>
+    <string name="editTextCommentVideo">Comment</string>
+    <string name="notificationTitleVideo">Sending Video</string>
+    <string name="notificationTitleFinalVideo">Your Video has been sent</string>
+    <string name="notificationTitleErrorVideo">Your Video failed to send</string>
+    <string name="editTextErrorVideo">Please fill out this field</string>
+
+</resources>

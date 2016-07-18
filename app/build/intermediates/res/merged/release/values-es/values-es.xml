@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerGenderSignup">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+    <color name="Gray">#707070</color>
+    <color name="black">#000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="blue">#00A2FF</color>
+    <color name="blueCode">#558cf3</color>
+    <color name="blueTransp">#BB588AC7</color>
+    <color name="darkGray">#F4F4F4</color>
+    <color name="darkOrange">#CE9300</color>
+    <color name="darkRed">#B70000</color>
+    <color name="grayTemplates">#EEEEEE</color>
+    <color name="green">#a9d164</color>
+    <color name="lightGray">#C6C6C6</color>
+    <color name="lightOrange">#F6B000</color>
+    <color name="lightTransparentOrange">#90F6B000</color>
+    <color name="red">#FF0000</color>
+    <color name="veryLightGray">#f3f3f3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteTransp">#55FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"NO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"SÍ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="action_settings">Configuración</string>
+    <string name="admobApp">ca-app-pub-5575001941246753~2946022628</string>
+    <string name="admobId">ca-app-pub-5575001941246753/5421811023</string>
+    <string name="app_name">Fammous</string>
+    <string name="buttonAcceptDialogBack">Aceptar</string>
+    <string name="buttonCancelDialogBack">Cancelar</string>
+    <string name="buttonChangeCamera">Cambiar cámara</string>
+    <string name="buttonDeleteVideo">Borrar</string>
+    <string name="buttonImageSignup">Imagen</string>
+    <string name="buttonLoginStart">Iniciar Sesión</string>
+    <string name="buttonRecordCamera">Grabar</string>
+    <string name="buttonRetryDialogConnection">Reintentar conexión</string>
+    <string name="buttonSendSignup">Enviar</string>
+    <string name="buttonSendVideo">Enviar</string>
+    <string name="buttonStopCamera">Parar</string>
+    <string name="editTextAddressSignup">Dirección</string>
+    <string name="editTextBirthdaySignup">Fecha de nacimiento (dd-mm-aaaa)</string>
+    <string name="editTextCitySignup">Ciudad</string>
+    <string name="editTextCommentVideo">Comentario</string>
+    <string name="editTextEmailSignup">Email</string>
+    <string name="editTextEmailStart">Email</string>
+    <string name="editTextErrorVideo">Es obligatorio rellenar este campo</string>
+    <string name="editTextNameSignup">Nombre</string>
+    <string name="editTextPasswordSignup">Contraseña</string>
+    <string name="editTextPasswordStart">Password</string>
+    <string name="editTextPhoneSignup">Teléfono</string>
+    <string name="editTextProvinceSignup">Provincia</string>
+    <string name="editTextSurnameSignup">Apellido</string>
+    <string name="editTextTitleVideo">Titulo</string>
+    <string name="messageDialogBack">Si continúa el video no será guardado</string>
+    <string name="messageDialogConnection">Es necesaria una conexión a Internet para un correcto funcionamiento. Vuelva a intentarlo más adelante.</string>
+    <string name="messageToastWelcome">¡Bienvenido, %1$s!</string>
+    <string name="notificationTitleErrorVideo">No se ha podido enviar el vídeo</string>
+    <string name="notificationTitleFinalVideo">Su vídeo ha sido enviado</string>
+    <string name="notificationTitleVideo">Enviando el vídeo</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="titleDialogConnection">Aviso</string>
+    <string name="title_activity_signup">Registro</string>
+    <string name="title_activity_splash_screen">f</string>
+    <string name="title_activity_start_screen">StartScreen</string>
+    <string name="toastSplash">Para utilizar la aplicación, deberá estar conectado a Internet</string>
+    <string name="toastStart">No se ha podido conectar al servidor. Por favor inténtelo de nuevo</string>
+    <string name="toastStartFill">Para iniciar sesión debe rellenar todos los campos</string>
+    <string name="toastStartSignup">El email o la contraseña que ha introducido no es válido</string>
+    <string name="user_agent_suffix">Fammous_Android/1.0</string>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+							<!-- ESPAÑOL -->
+<resources>
+    <string name="app_name">Fammous</string>   
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_start_screen">StartScreen</string>
+    <string name="title_activity_splash_screen">f</string>
+    <string name="admobApp">ca-app-pub-5575001941246753~2946022628</string>
+    <string name="admobId">ca-app-pub-5575001941246753/5421811023</string>    
+    <string name="user_agent_suffix">Fammous_Android/1.0</string>
+    <string name="titleDialogConnection">Aviso</string>
+    <string name="buttonRetryDialogConnection">Reintentar conexión</string>
+    <string name="messageDialogConnection">Es necesaria una conexión a Internet para un correcto funcionamiento. Vuelva a intentarlo más adelante.</string>
+    <string name="messageDialogBack">Si continúa el video no será guardado</string>
+    <string name="buttonAcceptDialogBack">Aceptar</string>
+    <string name="buttonCancelDialogBack">Cancelar</string>
+    <string name="messageToastWelcome">¡Bienvenido, %1$s!</string>
+    
+    <!-- SplashScreen -->
+    <string name="toastSplash">Para utilizar la aplicación, deberá estar conectado a Internet</string>
+    
+    <!-- StartScreen -->
+    <string name="editTextEmailStart">Email</string>
+    <string name="editTextPasswordStart">Password</string>
+    <string name="buttonLoginStart">Iniciar Sesión</string>    
+    <string name="toastStart">No se ha podido conectar al servidor. Por favor inténtelo de nuevo</string>
+    <string name="toastStartSignup">El email o la contraseña que ha introducido no es válido</string>
+    <string name="toastStartFill">Para iniciar sesión debe rellenar todos los campos</string>
+
+    <!-- Signup -->
+    <string name="editTextEmailSignup">Email</string>
+    <string name="editTextPasswordSignup">Contraseña</string>
+    <string name="editTextNameSignup">Nombre</string>
+    <string name="editTextSurnameSignup">Apellido</string>
+    <string name="editTextBirthdaySignup">Fecha de nacimiento (dd-mm-aaaa)</string>
+    <string name="editTextCitySignup">Ciudad</string>
+    <string name="editTextAddressSignup">Dirección</string>
+    <string name="editTextProvinceSignup">Provincia</string>
+    <string name="editTextPhoneSignup">Teléfono</string>
+
+    <string-array name="spinnerGenderSignup">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+
+    <string name="buttonImageSignup">Imagen</string>
+    <string name="buttonSendSignup">Enviar</string>
+    <string name="title_activity_signup">Registro</string>
+
+    <!-- CameraRecorder -->
+    <string name="buttonRecordCamera">Grabar</string>
+    <string name="buttonStopCamera">Parar</string>
+    <string name="buttonChangeCamera">Cambiar cámara</string>
+       
+    <!-- SendVideo -->
+    <string name="buttonSendVideo">Enviar</string>
+	<string name="buttonDeleteVideo">Borrar</string>
+	<string name="editTextTitleVideo">Titulo</string>
+	<string name="editTextCommentVideo">Comentario</string>
+   	<string name="notificationTitleVideo">Enviando el vídeo</string>
+	<string name="notificationTitleFinalVideo">Su vídeo ha sido enviado</string>
+	<string name="notificationTitleErrorVideo">No se ha podido enviar el vídeo</string>
+	<string name="editTextErrorVideo">Es obligatorio rellenar este campo</string>
+
+</resources>
